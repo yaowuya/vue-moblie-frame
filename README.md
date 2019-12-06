@@ -5,8 +5,6 @@
 
 使用技术:vue-cli3+axios+vuex
 
-
-
 ## Project setup
 ```
 npm install
@@ -36,4 +34,15 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### 记录
->tip：1、375px 即100%宽度，写px会自动rem处理，如果不想被rem处理，可以使用PX来写。
+1.tip：1、375px 即100%宽度，写px会自动rem处理，如果不想被rem处理，可以使用PX来写。
+
+2.vue监听对象
+```
+watch: {
+    args: {
+      handler (newValue, oldValue) {
+      },
+      deep: true
+    }
+
+```

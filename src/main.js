@@ -1,6 +1,7 @@
 import Vue from 'vue'
 
-import './rem'
+// import './rem'
+import 'lib-flexible/flexible'
 import './assets/styles/common.scss'
 
 import Vant from 'vant'
